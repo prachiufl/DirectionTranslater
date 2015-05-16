@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="send1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="save1" min="-2" pref="57" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="error1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane1" alignment="0" min="-2" pref="193" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="lang1" min="-2" pref="193" max="-2" attributes="0"/>
+                              <EmptySpace pref="63" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                              <Component id="send2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="save2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="error2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lang2" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jScrollPane2" alignment="1" pref="194" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="rateApp" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lang1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lang2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="send1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="error1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="send2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="error2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="save1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="save2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Component id="rateApp" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="lang1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="65">
+            <StringItem index="0" value="Afrikaans"/>
+            <StringItem index="1" value="Albanian"/>
+            <StringItem index="2" value="Arabic"/>
+            <StringItem index="3" value="Azerbaijani"/>
+            <StringItem index="4" value="Basque"/>
+            <StringItem index="5" value="Basque"/>
+            <StringItem index="6" value="Bengali"/>
+            <StringItem index="7" value="Belarusian"/>
+            <StringItem index="8" value="Bulgarian"/>
+            <StringItem index="9" value="Catalan"/>
+            <StringItem index="10" value="ChineseSimplified"/>
+            <StringItem index="11" value="ChineseTraditional"/>
+            <StringItem index="12" value="Croatian"/>
+            <StringItem index="13" value="Czech"/>
+            <StringItem index="14" value="Danish"/>
+            <StringItem index="15" value="Dutch"/>
+            <StringItem index="16" value="English"/>
+            <StringItem index="17" value="Esperanto"/>
+            <StringItem index="18" value="Estonian"/>
+            <StringItem index="19" value="Filipino"/>
+            <StringItem index="20" value="Finnish"/>
+            <StringItem index="21" value="French"/>
+            <StringItem index="22" value="Galician"/>
+            <StringItem index="23" value="Georgian"/>
+            <StringItem index="24" value="German"/>
+            <StringItem index="25" value="Greek"/>
+            <StringItem index="26" value="Gujarati"/>
+            <StringItem index="27" value="HaitianCreole"/>
+            <StringItem index="28" value="Hebrew"/>
+            <StringItem index="29" value="Hindi"/>
+            <StringItem index="30" value="Hungarian"/>
+            <StringItem index="31" value="Icelandic"/>
+            <StringItem index="32" value="Indonesian"/>
+            <StringItem index="33" value="Irish"/>
+            <StringItem index="34" value="Italian"/>
+            <StringItem index="35" value="Japanese"/>
+            <StringItem index="36" value="Kannada"/>
+            <StringItem index="37" value="Korean"/>
+            <StringItem index="38" value="Latin"/>
+            <StringItem index="39" value="Latvian"/>
+            <StringItem index="40" value="Lithuanian"/>
+            <StringItem index="41" value="Macedonian"/>
+            <StringItem index="42" value="Malay"/>
+            <StringItem index="43" value="Maltese"/>
+            <StringItem index="44" value="Norwegian"/>
+            <StringItem index="45" value="Persian"/>
+            <StringItem index="46" value="Polish"/>
+            <StringItem index="47" value="Portuguese"/>
+            <StringItem index="48" value="Romanian"/>
+            <StringItem index="49" value="Russian"/>
+            <StringItem index="50" value="Serbian"/>
+            <StringItem index="51" value="Slovak"/>
+            <StringItem index="52" value="Slovenian"/>
+            <StringItem index="53" value="Spanish"/>
+            <StringItem index="54" value="Swahili"/>
+            <StringItem index="55" value="Swedish"/>
+            <StringItem index="56" value="Tamil"/>
+            <StringItem index="57" value="Telugu"/>
+            <StringItem index="58" value="Thai"/>
+            <StringItem index="59" value="Turkish"/>
+            <StringItem index="60" value="Ukrainian"/>
+            <StringItem index="61" value="Urdu"/>
+            <StringItem index="62" value="Vietnamese"/>
+            <StringItem index="63" value="Welsh"/>
+            <StringItem index="64" value="Yiddish"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="lang2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="65">
+            <StringItem index="0" value="Afrikaans"/>
+            <StringItem index="1" value="Albanian"/>
+            <StringItem index="2" value="Arabic"/>
+            <StringItem index="3" value="Azerbaijani"/>
+            <StringItem index="4" value="Basque"/>
+            <StringItem index="5" value="Basque"/>
+            <StringItem index="6" value="Bengali"/>
+            <StringItem index="7" value="Belarusian"/>
+            <StringItem index="8" value="Bulgarian"/>
+            <StringItem index="9" value="Catalan"/>
+            <StringItem index="10" value="ChineseSimplified"/>
+            <StringItem index="11" value="ChineseTraditional"/>
+            <StringItem index="12" value="Croatian"/>
+            <StringItem index="13" value="Czech"/>
+            <StringItem index="14" value="Danish"/>
+            <StringItem index="15" value="Dutch"/>
+            <StringItem index="16" value="English"/>
+            <StringItem index="17" value="Esperanto"/>
+            <StringItem index="18" value="Estonian"/>
+            <StringItem index="19" value="Filipino"/>
+            <StringItem index="20" value="Finnish"/>
+            <StringItem index="21" value="French"/>
+            <StringItem index="22" value="Galician"/>
+            <StringItem index="23" value="Georgian"/>
+            <StringItem index="24" value="German"/>
+            <StringItem index="25" value="Greek"/>
+            <StringItem index="26" value="Gujarati"/>
+            <StringItem index="27" value="HaitianCreole"/>
+            <StringItem index="28" value="Hebrew"/>
+            <StringItem index="29" value="Hindi"/>
+            <StringItem index="30" value="Hungarian"/>
+            <StringItem index="31" value="Icelandic"/>
+            <StringItem index="32" value="Indonesian"/>
+            <StringItem index="33" value="Irish"/>
+            <StringItem index="34" value="Italian"/>
+            <StringItem index="35" value="Japanese"/>
+            <StringItem index="36" value="Kannada"/>
+            <StringItem index="37" value="Korean"/>
+            <StringItem index="38" value="Latin"/>
+            <StringItem index="39" value="Latvian"/>
+            <StringItem index="40" value="Lithuanian"/>
+            <StringItem index="41" value="Macedonian"/>
+            <StringItem index="42" value="Malay"/>
+            <StringItem index="43" value="Maltese"/>
+            <StringItem index="44" value="Norwegian"/>
+            <StringItem index="45" value="Persian"/>
+            <StringItem index="46" value="Polish"/>
+            <StringItem index="47" value="Portuguese"/>
+            <StringItem index="48" value="Romanian"/>
+            <StringItem index="49" value="Russian"/>
+            <StringItem index="50" value="Serbian"/>
+            <StringItem index="51" value="Slovak"/>
+            <StringItem index="52" value="Slovenian"/>
+            <StringItem index="53" value="Spanish"/>
+            <StringItem index="54" value="Swahili"/>
+            <StringItem index="55" value="Swedish"/>
+            <StringItem index="56" value="Tamil"/>
+            <StringItem index="57" value="Telugu"/>
+            <StringItem index="58" value="Thai"/>
+            <StringItem index="59" value="Turkish"/>
+            <StringItem index="60" value="Ukrainian"/>
+            <StringItem index="61" value="Urdu"/>
+            <StringItem index="62" value="Vietnamese"/>
+            <StringItem index="63" value="Welsh"/>
+            <StringItem index="64" value="Yiddish"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lang2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Language 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Language 2"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="send1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="send1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="error1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Error"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="error1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="send2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="send2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="error2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Error"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="error2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="save1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="save1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="rateApp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rate This App"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rateAppActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="save2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="save2ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
